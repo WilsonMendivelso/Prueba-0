@@ -5,3 +5,6 @@ def fib(n):
 fib(5)
 
 print("Hola")
+
+def devuelve0():
+    return 0
