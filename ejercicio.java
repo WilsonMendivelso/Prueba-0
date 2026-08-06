@@ -1,6 +1,12 @@
+import java.util.Scanner;
+/**
+* Busca comprobar si un número es impar
+*/
 public class Main{
   public static void main(String[] args){
-    int n =41;
+
+    Scanner scan = new Scanner(System.in);
+    int n = scan.nextInt();
     if (esPri(n)){
         System.out.println("es primo");
     } else {
